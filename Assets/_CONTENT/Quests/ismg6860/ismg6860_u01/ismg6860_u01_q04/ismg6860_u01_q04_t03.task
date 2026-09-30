@@ -1,0 +1,18 @@
+{
+  "variants": [
+    {
+      "correctAnswer": "eli-masters",
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>George Wilkerson:</b> The GoalPost piece named Eli Masters as a close friend and that caught my attention. Please search the social platform for Eli's public profile and look specifically for photos where I am tagged with family or close friends. Identify the tagged photo and note the post text that demonstrates our relationship so we can map who is publicly linked to me.",
+      "taskQuestion": "Find Eli's profile and tagged photo",
+      "taskCompleteText": "You found Eli Masters' public profile (@eli.masters) and located a tagged photo that includes George and several family members."
+    }
+  ],
+  "taskID": "ismg6860_u01_q04_t03",
+  "parentQuestID": "ismg6860_u01_q04",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Website"
+}

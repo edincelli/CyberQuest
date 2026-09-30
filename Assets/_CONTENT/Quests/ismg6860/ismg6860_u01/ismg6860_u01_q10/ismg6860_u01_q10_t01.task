@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "actionType": "app_scenario_finished",
+      "actionTag": "",
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> Alex, the academy’s sandbox lab is ready and I want you to demonstrate how mapping a network reveals which hosts and services are visible. Open the lab mapping app and run the Zenmap-style scenario that performs a safe reconnaissance sweep; the scenario will produce a scan report listing hosts and visible ports. Collect the scan output and assemble a short observation list noting any services that look unexpectedly exposed. When you have that, tell me what the results suggest about potential exposure and where a defender should focus next.",
+      "taskQuestion": "Map the lab network and gather scan results",
+      "taskCompleteText": "You ran the sandboxed mapping scenario and produced a short report listing discovered hosts and visible ports. The results highlighted which services were accessible and where an analyst would focus further review. This demonstrated how reconnaissance reveals an attack surface and why defenders pay attention to open ports."
+    }
+  ],
+  "taskID": "ismg6860_u01_q10_t01",
+  "parentQuestID": "ismg6860_u01_q10",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Action"
+}

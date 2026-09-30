@@ -1,0 +1,27 @@
+{
+  "correctAnswers": [],
+  "variants": [
+    {
+      "correctAnswers": [
+        "mail",
+        "mx",
+        "external",
+        "dns",
+        "external-ns",
+        "exposed",
+        "cname"
+      ],
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>George:</b> Nice work so far, Alex. I need a one- or two-word tag I can use to flag the single highest-priority concern from your DNS findings; keep it short so leadership can scan the list quickly. Reply with one or two words only, for example <b>mail</b> or <b>external-ns</b>, and do not add any explanation.",
+      "taskQuestion": "\"Name the highest-priority concern.",
+      "taskCompleteText": "Alex takes the information the DNSdumpster tool and feeds this to AI ON to get assistance with evaluating SquareByte’s risk profile. Alex has learned about SquareByte’s DNS servers, subdomains, domains, IP addresses, Geo IP data, Hosts, and network relationships for their client. For example: AI ON could point out potential vulnerable areas about the company’s network and infrastructure."
+    }
+  ],
+  "taskID": "ismg6860_u01_q07_t02",
+  "parentQuestID": "ismg6860_u01_q07",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Input"
+}

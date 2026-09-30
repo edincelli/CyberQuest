@@ -1,0 +1,24 @@
+{
+  "correctAnswers": [],
+  "variants": [
+    {
+      "correctAnswers": [
+        "duck451",
+        "duck451.net"
+      ],
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> Hello again, I've been swamped with work and I don't have much time to dig into BikeForge's outage reports myself. They've been seeing connection failures, slow page loads, and occasional security warnings, so the fastest useful check is their DNS configuration. Can you run DIG against BikeForgeGames.com to list name servers and related records and look for any entry that doesn't match BikeForge's usual naming patterns? One host in the output uses a noticeably different style; tell me which hostname you flagged so I can follow up with the registrar quickly.",
+      "taskQuestion": "Which DNS entry looks out of place?",
+      "taskCompleteText": "You ran DIG and found an unexpected host in the name server list. You flagged the hostname for follow-up verification with BikeForge and Samira will use that information to proceed."
+    }
+  ],
+  "taskID": "ismg6860_u01_q05_t01",
+  "parentQuestID": "ismg6860_u01_q05",
+  "videoID": null,
+  "mailsOnStart": [
+    "ismg6860_u01_q05_t01_start_samira-dig"
+  ],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Input"
+}

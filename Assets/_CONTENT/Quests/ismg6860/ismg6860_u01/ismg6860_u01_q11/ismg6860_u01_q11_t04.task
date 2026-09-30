@@ -1,0 +1,24 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Someone plans a crypto scam.",
+        "They want to sell addresses.",
+        "This is early-stage APT reconnaissance.",
+        "Reply to the sender to learn more."
+      ],
+      "correctAnswer": 2,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Jamal Rivers:</b> The forwarded messages and the UWork profiles suggest the sender learned our email format and is blasting exec‑style messages at many staff. This could be random spam or the first step of a more serious, targeted campaign; I need you to pick the scenario that worries you most so we can prioritize actions. What do you think is happening?",
+      "taskQuestion": "What bigger picture is likely?",
+      "taskCompleteText": "You identified early-stage reconnaissance as the most concerning option. Jamal elevated the incident for closer monitoring and directed SecOps to prioritize defensive measures and further investigation."
+    }
+  ],
+  "taskID": "ismg6860_u01_q11_t04",
+  "parentQuestID": "ismg6860_u01_q11",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

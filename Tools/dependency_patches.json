@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "hash_format": "SHA-256 of UTF-8 text without BOM, CRLF normalized to LF; no other normalization",
+  "positions": "One-based line, zero-based Unicode column, end-exclusive. All positions refer to the original file.",
+  "files": [
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/BoolField.cs",
+      "purpose": "Respect LockedFieldAttribute on boolean inputs.",
+      "before_sha256": "298ce92820afb109555da3f705d119080696bb9b67483fd9d2eaf9f01893d009",
+      "after_sha256": "f44f930646b4a21196e3fa7495bfbd72580d898a4fa149d96f0b6d48b9e437e2",
+      "edits": [
+        {
+          "start": [
+            2,
+            0
+          ],
+          "end": [
+            2,
+            0
+          ],
+          "text": "using System.Reflection;\n"
+        },
+        {
+          "start": [
+            51,
+            0
+          ],
+          "end": [
+            51,
+            0
+          ],
+          "text": "\n        protected override void OnBound(MemberInfo variable)\n        {\n            base.OnBound(variable);\n            input.interactable = IsInteractible(variable);\n        }\n"
+        }
+      ]
+    },
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/StringField.cs",
+      "purpose": "Respect LockedFieldAttribute on string inputs.",
+      "before_sha256": "0dc7ae1740696a8db2624a5c5ead7bb2e5dfff6dde881c3da5128eeafc3defad",
+      "after_sha256": "bfe06c89366281d00dea586b91c4960227c0ae5db2f8d748d0249cf48b3c45b3",
+      "edits": [
+        {
+          "start": [
+            49,
+            0
+          ],
+          "end": [
+            49,
+            0
+          ],
+          "text": "\n\t\t\tinput.BackingField.interactable = IsInteractible(variable);\n"
+        }
+      ]
+    },
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Fields/InspectorField.cs",
+      "purpose": "Add null-safe locking, informational labels and array/type expansion.",
+      "before_sha256": "a7bc88128e255aa53bf0839ee5027b5c3a0271fcd92662079c7d758876bc41fd",
+      "after_sha256": "845db10da66b611e9cc9e07b4980d99b0f5d010983ecc0ed2470a6de105e49fe",
+      "edits": [
+        {
+          "start": [
+            113,
+            0
+          ],
+          "end": [
+            113,
+            0
+          ],
+          "text": "\t\tpublic static bool IsInteractible(MemberInfo variable)\n\t\t{\n\t\t\treturn variable == null || !variable.HasAttribute<LockedFieldAttribute>();\n\t\t}\n\n"
+        },
+        {
+          "start": [
+            170,
+            8
+          ],
+          "end": [
+            170,
+            8
+          ],
+          "text": " virtual"
+        },
+        {
+          "start": [
+            173,
+            0
+          ],
+          "end": [
+            173,
+            0
+          ],
+          "text": "\t\t\tvar info = variable?.GetCustomAttribute<InfoStringAttribute>();\n\t\t\tif (info != null)\n\t\t\t\tvariableName += info.Info;\n\n"
+        },
+        {
+          "start": [
+            556,
+            0
+          ],
+          "end": [
+            556,
+            0
+          ],
+          "text": "\n        public override void BindTo(Type variableType, string variableName, Getter getter, Setter setter, MemberInfo variable = null)\n        {\n            base.BindTo(variableType, variableName, getter, setter, variable);\n            if (variable?.GetCustomAttribute<ExpandArrayAttribute>() != null ||\n                (!typeof(System.Collections.IList).IsAssignableFrom(variableType) &&\n                 variableType.GetCustomAttribute<ExpandArrayAttribute>() != null))\n                IsExpanded = true;\n        }\n"
+        }
+      ]
+    },
+    {
+      "package": "Auto Radial Layout",
+      "path": "Assets/GIGA Softworks/Auto Radial Layout/Scripts/RadialLayout.cs",
+      "purpose": "Return the newly created node from AddNode.",
+      "before_sha256": "cae9ffc61e25d2b25a359a52f0b06205027091e67a039239b24f0c81c430b2e7",
+      "after_sha256": "104c695437b5e90be92e261df9601998c164593bd6f072c7b19181cb1b3208c0",
+      "edits": [
+        {
+          "start": [
+            638,
+            15
+          ],
+          "end": [
+            638,
+            19
+          ],
+          "text": "GameObject"
+        },
+        {
+          "start": [
+            710,
+            0
+          ],
+          "end": [
+            710,
+            0
+          ],
+          "text": "\n            return newNode;\n"
+        }
+      ]
+    },
+    {
+      "package": "Beam UI",
+      "path": "Assets/Beam - Complete Fluent UI/Scripts/Animation/UISway.cs",
+      "purpose": "Reset hover sway when disabled.",
+      "before_sha256": "5605598c119ce835d46b3a16dcfd8020300c677710530cfd33486a7b2d86d9e8",
+      "after_sha256": "801fb90a878d7fdd3303c20e6589bce9cdc0f360c123ec1bd4dfdf686991c987",
+      "edits": [
+        {
+          "start": [
+            56,
+            0
+          ],
+          "end": [
+            56,
+            0
+          ],
+          "text": "\n        private void OnDisable() { allowSway = false; }\n"
+        }
+      ]
+    },
+    {
+      "package": "Beam UI",
+      "path": "Assets/Beam - Complete Fluent UI/Scripts/Panels/SettingsDescription.cs",
+      "purpose": "Expose writable cover, title and description properties.",
+      "before_sha256": "fcc8712d574c00676b794b9aebde17018d7fef3422efa2d05275ac004de0d0ec",
+      "after_sha256": "41f51405d9f13c6ac77b8728ee9254fdf898d644f526a8bd21c265e5be248a2c",
+      "edits": [
+        {
+          "start": [
+            20,
+            0
+          ],
+          "end": [
+            20,
+            0
+          ],
+          "text": "\n        public Sprite Cover { get => cover; set => cover = value; }\n        public string Title { get => title; set => title = value; }\n        public string Description { get => description; set => description = value; }\n"
+        }
+      ]
+    },
+    {
+      "package": "Beam UI",
+      "path": "Assets/Beam - Complete Fluent UI/Scripts/UI Elements/ButtonManager.cs",
+      "purpose": "Dispatch button-click audio to the first-party AudioManager.",
+      "before_sha256": "ac564873d3188b5dffd02c9533187a28b9997e3eca767f509c1c61558f9d8e3b",
+      "after_sha256": "81907b404bffb6999b6e81e58f27054eb33503c4a9f8a33bf2809c77fcd064a4",
+      "edits": [
+        {
+          "start": [
+            310,
+            0
+          ],
+          "end": [
+            310,
+            0
+          ],
+          "text": "            GameObject.Find(\"AudioManager\")?.SendMessage(\"PlayClickSound\");\n"
+        }
+      ]
+    },
+    {
+      "package": "Beam UI",
+      "path": "Assets/Beam - Complete Fluent UI/Scripts/UI Elements/PanelButton.cs",
+      "purpose": "Avoid starting state coroutines while disabled.",
+      "before_sha256": "ba58f89d6342fa9aeeec0e0c972efef709e2d04770b09c22c8cab8ba5734cf2f",
+      "after_sha256": "a9732486834b15a24360ad3d66dfd916e03aba2d85dc5defcab2838a2a13cc11",
+      "edits": [
+        {
+          "start": [
+            110,
+            0
+          ],
+          "end": [
+            110,
+            0
+          ],
+          "text": "\n            if (isActiveAndEnabled == false)\n                return;\n"
+        }
+      ]
+    },
+    {
+      "package": "Beam UI",
+      "path": "Assets/Beam - Complete Fluent UI/Scripts/Achievements/AchievementManager.cs",
+      "purpose": "Keep demo achievement indicators locked; omit temporary helpers.",
+      "before_sha256": "b03dd767e14b497ca726e14644bebcca6f707a4caa5d017bf88b80cdf76cf155",
+      "after_sha256": "0f4dceb154fb57a643e190ecfde140fd7d129381a50ba83ce1035932b4e9e4e9",
+      "edits": [
+        {
+          "start": [
+            156,
+            0
+          ],
+          "end": [
+            158,
+            0
+          ],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "package": "Graph And Chart",
+      "path": "Assets/Chart And Graph/Script/RadarChart/RadarChart.cs",
+      "purpose": "Opt out of additional canvases for radar labels.",
+      "before_sha256": "4460e62524d12ccf389682dc7036a992bbab16574c3dd0babae8208ed59660a1",
+      "after_sha256": "9976193b15d462e9087bda2e348df16e9238024c25aa4e39a758f24c917f2942",
+      "edits": [
+        {
+          "start": [
+            466,
+            52
+          ],
+          "end": [
+            466,
+            52
+          ],
+          "text": ", false"
+        }
+      ]
+    },
+    {
+      "package": "Graph And Chart",
+      "path": "Assets/Chart And Graph/Script/Text/TextController.cs",
+      "purpose": "Allow callers to opt out of additional label canvases.",
+      "before_sha256": "93c96049d109ec058735b7a7137e1dc95ac44698365062f30fd68c6475f7e382",
+      "after_sha256": "95741aa5c07a5d2a4e6d894ed724e4a9760d18d11e0a4e2bbef81f005ffff234",
+      "edits": [
+        {
+          "start": [
+            152,
+            47
+          ],
+          "end": [
+            152,
+            47
+          ],
+          "text": ", bool addCanvas = true"
+        },
+        {
+          "start": [
+            192,
+            0
+          ],
+          "end": [
+            192,
+            0
+          ],
+          "text": "\n            if (addCanvas)\n    "
+        },
+        {
+          "start": [
+            193,
+            0
+          ],
+          "end": [
+            193,
+            0
+          ],
+          "text": "\n"
+        }
+      ]
+    },
+    {
+      "package": "World Political Map Globe",
+      "path": "Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Internal/WPMInternal.cs",
+      "purpose": "Correct W/A/S/D globe control directions.",
+      "before_sha256": "66938874a1628078681fba5005cd7dd27edf96c42e6f4d0bc0b04c5eaa78a3b2",
+      "after_sha256": "7a3a352c0184fff8e93bbfe60543b39b93a8b3accb542a1f02c9547eb4ca1740",
+      "edits": [
+        {
+          "start": [
+            1672,
+            49
+          ],
+          "end": [
+            1672,
+            53
+          ],
+          "text": "up"
+        },
+        {
+          "start": [
+            1676,
+            49
+          ],
+          "end": [
+            1676,
+            51
+          ],
+          "text": "down"
+        },
+        {
+          "start": [
+            1680,
+            49
+          ],
+          "end": [
+            1680,
+            53
+          ],
+          "text": "lef"
+        },
+        {
+          "start": [
+            1684,
+            49
+          ],
+          "end": [
+            1684,
+            52
+          ],
+          "text": "righ"
+        }
+      ]
+    },
+    {
+      "package": "World Political Map Globe",
+      "path": "Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Internal/WPMInternal.Navigation.cs",
+      "purpose": "Correct W/A/S/D navigation directions.",
+      "before_sha256": "048ae800b28cc0d61104fd8bbdc904071cca3ab8335f4c37c8103b37bfbebd42",
+      "after_sha256": "3eabe863c6df55138d64e091c0d52893553e86b75fd695cde2804f8543ce9543",
+      "edits": [
+        {
+          "start": [
+            322,
+            42
+          ],
+          "end": [
+            322,
+            46
+          ],
+          "text": "up"
+        },
+        {
+          "start": [
+            325,
+            42
+          ],
+          "end": [
+            325,
+            44
+          ],
+          "text": "down"
+        },
+        {
+          "start": [
+            330,
+            43
+          ],
+          "end": [
+            330,
+            47
+          ],
+          "text": "lef"
+        },
+        {
+          "start": [
+            333,
+            43
+          ],
+          "end": [
+            333,
+            46
+          ],
+          "text": "righ"
+        }
+      ]
+    },
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes/ExpandArrayAttribute.cs",
+      "payload": "ExpandArrayAttribute.cs",
+      "after_sha256": "8916cdd7544bc7bbca498d7b04d0a63cb8a806bf6a8fec59fdaa32c87bdca8b1"
+    },
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes/ExpandArrayAttribute.cs.meta",
+      "payload": "ExpandArrayAttribute.cs.meta",
+      "after_sha256": "5794d28f53c64136892e336a4c89cb4b077a0d6d1f8075607c382dad6658f62d"
+    },
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes/InfoStringAttribute.cs",
+      "payload": "InfoStringAttribute.cs",
+      "after_sha256": "dd879fdd1b3bd77a1125cd501625a37bdd2368a6b6acf664746f0375c4f23308"
+    },
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes/InfoStringAttribute.cs.meta",
+      "payload": "InfoStringAttribute.cs.meta",
+      "after_sha256": "c8962b86eccfab2fe764299529d78fb11a817d649d7bdfe032cd4706b19df589"
+    },
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes/LockedFieldAttribute.cs",
+      "payload": "LockedFieldAttribute.cs",
+      "after_sha256": "aa69fe8006046bb06fd06dac454b1e1f55008dcfc07f11ed7bc7b020bd6bba34"
+    },
+    {
+      "package": "Runtime Inspector",
+      "path": "Assets/Plugins/RuntimeInspector/Scripts/RuntimeInspector/Attributes/LockedFieldAttribute.cs.meta",
+      "payload": "LockedFieldAttribute.cs.meta",
+      "after_sha256": "45cca92eea2990b96202863f43c7cc619d1067562749b2335156f9b6a59aa7f7"
+    }
+  ]
+}

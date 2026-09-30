@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "actionType": "app_scenario_finished",
+      "actionTag": null,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> Open the EmailTrackerPro app and load the raw message source into its analysis field so the tool can parse the header you copied. Click Trace to parse the routing hops and watch the final‑hop appear on the map. Select the final‑hop row, open the Network WhoIs panel to read the registrant and allocation metadata, then run the Secondary Check to validate what the WhoIs shows. When you have the final‑hop IP and the registrant as displayed, complete the in‑app submission to finish the scenario.",
+      "taskQuestion": "Finish the EmailTrackerPro app scenario.",
+      "taskCompleteText": "EmailTrackerPro parsed the header, plotted the final hop, and displayed the Network WhoIs. You completed the secondary confirmation and submitted the final‑hop IP and registrant from the app so Samira can record the incident."
+    }
+  ],
+  "taskID": "ismg6860_u01_q09_t02",
+  "parentQuestID": "ismg6860_u01_q09",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Action"
+}

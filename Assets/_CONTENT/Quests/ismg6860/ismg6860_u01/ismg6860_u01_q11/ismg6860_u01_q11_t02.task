@@ -1,0 +1,23 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Help secure the network.",
+        "Check other employees' computers now.",
+        "Interview Susie and Juan about UWork."
+      ],
+      "correctAnswer": 2,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Jamal Rivers:</b> Susie forwarded a suspicious, near‑duplicate of a UWork notification to your sandboxed laptop for safe review. I need you to inspect it and tell me the safest next action so we gather context without escalating or probing further.",
+      "taskQuestion": "What step will you take next?",
+      "taskCompleteText": "You approach the SecOps superior at NorthTec and let them know that they need to issue a warning to all employees to not click on any suspicious email links and confirm that they were expecting an email by confirming the address from which it was sent. You are told about an influx of suspicious emails to all employees coming through the company’s IT help line. Concerned that there may have been a social engineering attack, you are instructed investigate further, while rest of your team works on securing the company’s network. \r\n\r\nSusie forwards a copy of the email he received to your sandboxed laptop. You securely look at the email. You know that attackers can send email that looks almost identical to the emails that legitimate companies send.\r\n"
+    }
+  ],
+  "taskID": "ismg6860_u01_q11_t02",
+  "parentQuestID": "ismg6860_u01_q11",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

@@ -1,0 +1,16 @@
+{
+  "mailID": "ismg6860_u01_q05_t01_start_samira-dig",
+  "parentTaskID": "ismg6860_u01_q05_t01",
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "author": "Samira Linton <samira.linton@cyberworld.edu>",
+      "subject": "Subject: How to Use the DIG Command Effectively",
+      "shortSummary": "Guidance on using the `dig` command to query name servers, emphasizing how it can reveal anomalies in DNS setups. She encourages reaching out for any questions and attaches her character sheet for reference.",
+      "date": "0001-01-01T00:00:00",
+      "body": "Hi Alex,\r\n\r\nI wanted to share some quick tips on using the `<b>dig</b>` command, especially when querying name servers. This will enhance your understanding of how domains resolve to their IPs.\r\n\r\n<b>Using DIG for Name Servers:</b>\r\n\r\nTo specifically query the name servers for a domain, use:  \r\n`<i>dig NS [domain]</i>`\r\n\r\nFor example:  \r\n`<i>dig NS BikeForgeGames.com</i>`\r\n\r\n<b>Key Outputs to Note:</b>\r\n- <b>QUESTION SECTION</b>: Confirms the query type.\r\n- <b>ANSWER SECTION<b>: Displays domain name servers.\r\n- <b>ADDITIONAL SECTION</b>: Provides IPs for those servers.\r\n\r\nThese components help identify any anomalies or security issues within the DNS setup of a domain. Keep an eye out for anything that doesn’t match expected patterns—it's often where you'll find clues!\r\n\r\nIf you have questions or need further clarification, feel free to reach out.\r\n\r\n<b>Best,</b>  \r\n<b>Samira</b>",
+      "attachements": []
+    }
+  ]
+}

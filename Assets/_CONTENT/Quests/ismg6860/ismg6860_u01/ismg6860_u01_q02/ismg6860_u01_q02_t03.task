@@ -1,0 +1,21 @@
+{
+  "variants": [
+    {
+      "minigameType": "Connections",
+      "minigameHeaderText": "NorthTec Main Server",
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> We’ve confirmed NorthTec’s credentials are out in the wild and agreed they need a company‑wide reset—that’s the emergency bandage. Now they want us to tighten their defenses so the next slip-up is harder to turn into an attack. I’ve sent you an email with a short checklist of changes they’re ready to make on their perimeter firewall and login protections. Open the configuration panel for <b>“NorthTec Main Server”</b> and turn on the rules that block obvious attacks, protect logins, and give their team better visibility, but don’t break everyday traffic for staff and customers. Once you’re satisfied with the setup, I’ll bundle your configuration into our audit report and send it over to NorthTec.",
+      "taskQuestion": "Configure the firewall for NorthTec.",
+      "taskCompleteText": "By applying sensible rules on NorthTec’s perimeter—filtering web traffic, protecting logins with stronger checks, and turning on useful monitoring—you turned a basic password reset into real defense‑in‑depth. Samira folds your final firewall configuration into the written audit report and sends it to NorthTec, giving them a clear, practical plan to harden their systems against future breaches and zero‑day exploits."
+    }
+  ],
+  "taskID": "ismg6860_u01_q02_t03",
+  "parentQuestID": "ismg6860_u01_q02",
+  "videoID": null,
+  "mailsOnStart": [
+    "ismg6860_u01_q02_t03_start_samira-firewall"
+  ],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Minigame"
+}

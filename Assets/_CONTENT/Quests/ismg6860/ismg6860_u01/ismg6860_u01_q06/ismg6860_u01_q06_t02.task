@@ -1,0 +1,24 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Restrict indexing by using robots.txt ",
+        "Ban all web spiders from all websites",
+        "Remove all public directories.",
+        "Reinforce two-factor authentication at companies. "
+      ],
+      "correctAnswer": 0,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Charisse:</b> You found 75 public entries for my name and that number will be a powerful hook in the article. I want to explain to readers which mitigation most effectively reduces unintentional exposure to web spiders. Help me pick the clearest, most practical option and mention any important caveats readers should know. Choose the best answer from the list and I’ll include your explanation in the piece.",
+      "taskQuestion": "What is the most effective way to help prevent data exposure from web spiders?",
+      "taskCompleteText": "You advised Charisse that using robots.txt to restrict indexing is the most direct way to reduce unintentional exposure to web spiders. You also communicated the important caveat that robots.txt is advisory and must be paired with access controls, targeted removal of sensitive public files, and other protections to effectively prevent data exposure."
+    }
+  ],
+  "taskID": "ismg6860_u01_q06_t02",
+  "parentQuestID": "ismg6860_u01_q06",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

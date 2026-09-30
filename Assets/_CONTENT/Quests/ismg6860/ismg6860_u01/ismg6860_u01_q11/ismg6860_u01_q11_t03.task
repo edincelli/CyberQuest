@@ -1,0 +1,18 @@
+{
+  "variants": [
+    {
+      "correctAnswer": false,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Jamal Rivers:</b> After interviewing Susie and Juan they told me they use a networking site called UWork and have two‑factor authentication enabled. Their public profiles display work email formats which attackers could harvest. Consider whether account compromise is the only way those addresses could be discovered.",
+      "taskQuestion": "Is account compromise the only way addresses are found?",
+      "taskCompleteText": "You confirmed that public profiles can expose email formats without accounts being compromised. Jamal notes this makes it easy for attackers to guess many addresses."
+    }
+  ],
+  "taskID": "ismg6860_u01_q11_t03",
+  "parentQuestID": "ismg6860_u01_q11",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "TrueFalse"
+}

@@ -1,0 +1,23 @@
+{
+  "questID": "ismg6860_u01_d03",
+  "cityIndex": 6946,
+  "questIconID": "sample_decision_icon_2",
+  "decisionQuest": true,
+  "taskIDs": [
+    "ismg6860_u01_d03_decision"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "",
+      "questName": "Disclosure Decision",
+      "questDescription": "A single-stage decision where Samira asks the player to decide how to handle sensitive registrant data discovered during a Whois lookup on ShadowTech. The choice tests ethical reasoning about disclosure versus continuing work or exploiting the information. The learning focus is on public Whois data risks and responsible handling of reconnaissance findings.",
+      "questCompleteText": "You recorded a decision and reviewed the ethical and technical lessons tied to public Whois data. Each option carries different real-world consequences for the target, the tester, and your reputation. Remember that Whois exposes registrant metadata and that Whois queries typically operate over TCP port 43; handle such findings responsibly.",
+      "questCharacterID": "u01_samira_linton",
+      "appScenarioID": ""
+    }
+  ]
+}

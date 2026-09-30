@@ -1,0 +1,24 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Enable DNSSEC and registrar lock to prevent unauthorized changes.",
+        "Delete all of the servers and start over.",
+        "Leave BikeForge to check the entire website manually.",
+        "Give a detailed report to an online forum for help. "
+      ],
+      "correctAnswer": 0,
+      "persona": "Whitehat Hacker",
+      "taskDescription": " <b>Samira:</b> BikeForge confirmed they did not add that duck451.net entry and they want this fixed before players are affected further. I need a clear, practical recommendation you can stand behind when I talk to their registrar and hosting provider. Think about actions that prevent unauthorized DNS changes, preserve the domain’s chain of trust, and are doable for an indie team with limited ops resources. Pick the best immediate step so I can pass it along and help them recover control.",
+      "taskQuestion": "Which remediation should you recommend?",
+      "taskCompleteText": "You recommended enabling DNSSEC and a registrar lock, verifying records with the registrar, rotating credentials, and monitoring DNS changes. Samira consolidated your advice into an action list for BikeForge and began coordinating with the registrar to restore and protect their DNS configuration."
+    }
+  ],
+  "taskID": "ismg6860_u01_q05_t03",
+  "parentQuestID": "ismg6860_u01_q05",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

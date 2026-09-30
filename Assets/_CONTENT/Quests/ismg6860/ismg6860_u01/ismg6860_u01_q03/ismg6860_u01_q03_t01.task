@@ -1,0 +1,20 @@
+{
+  "variants": [
+    {
+      "correctAnswer": "exports/Q4NexList.jpg",
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Taylor:</b> Samira gave me your contact and said you handle freelance investigations like this. We flagged an off hours access to an internal file called \"Q4NexList\" and need to know if a screenshot of our Q4 client list is visible on the public web. Search the web for that filename and pay particular attention to image results; if you find a hosting page or a direct image that shows the screenshot, save the page or capture the image as evidence. Samira mentioned she will email you a brief set of instructions and the log snippet so check your inbox while you work. When you have the source, report back with the filename or the public URL so I can escalate this to our security and legal teams.",
+      "taskQuestion": "Find webpage with Q4NexList image.",
+      "taskCompleteText": "You located the Q4NexList image and saved the hosting page as evidence. The screenshot and its source URL were added to your evidence bag. Taylor confirmed receipt and will escalate the exposure to NexaCore security and legal so you can prepare the incident report."
+    }
+  ],
+  "taskID": "ismg6860_u01_q03_t01",
+  "parentQuestID": "ismg6860_u01_q03",
+  "videoID": null,
+  "mailsOnStart": [
+    "ismg6860_u01_q03_t01_start_samira-imagesearch"
+  ],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Website"
+}

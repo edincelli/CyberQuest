@@ -1,0 +1,29 @@
+{
+  "decisions": [
+    {
+      "decisionText": "Contact ShadowTech privately and disclose the exposed registrant information.",
+      "personaIndex": 0,
+      "personaValueChange": 5
+    },
+    {
+      "decisionText": "Use the information to demand payment or public disclosure.",
+      "personaIndex": 1,
+      "personaValueChange": 5
+    }
+  ],
+  "variants": [
+    {
+      "persona": "Universal Persona Content",
+      "taskDescription": "<b>Samira:</b> Alex, I reviewed the Whois output you pulled for ShadowTech and it shows a registrant name and email exposed: Riley Calder at ShadowTech Projects with riley.calder@shadowtech.corp. That name was supposed to be private because the project is not public and this ties an individual to the work. This exposure could put Riley at personal and professional risk if the data is misused, so we need to decide how to proceed. Tell me which approach you want us to take and I will follow your direction.",
+      "taskQuestion": "What should we do with the registrant data?",
+      "taskCompleteText": " Your decision has been recorded. Remember that Whois records can expose personal or project-linked metadata and that Whois queries commonly use TCP port 43. Consider the ethical and professional consequences of reconnaissance findings before acting."
+    }
+  ],
+  "taskID": "ismg6860_u01_d03_decision",
+  "parentQuestID": "ismg6860_u01_d03",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Decision"
+}

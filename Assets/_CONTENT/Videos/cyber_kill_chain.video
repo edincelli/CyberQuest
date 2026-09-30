@@ -1,0 +1,10 @@
+{
+  "videoID": "cyber_kill_chain",
+  "videoURL": "",
+  "videoName": "Cyber Kill Chain",
+  "videoDescription": "The cyber kill chain (or cyberattack chain) is a cybersecurity model that breaks an attack into distinct stages. It helps security professionals identify attacks in progress and stop them before they cause damage to an organization. The cyber kill chain includes eight stages: <br> - Reconnaissance <br> - Weaponization <br> - Delivery <br> - Exploitation <br> - Installation <br> - Command and Control (C2) <br> - Actions on Objectives <br> - Monetization",
+  "links":
+  [
+    "cyber kill chain"
+  ]
+}

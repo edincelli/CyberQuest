@@ -1,0 +1,25 @@
+{
+  "correctAnswers": [],
+  "variants": [
+    {
+      "correctAnswers": [
+        "accounts",
+        "list",
+        "northtec",
+        "internal",
+        "employee"
+      ],
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> Alex, NorthTec just reached out—they want us to run a quick external audit on their security. Nothing invasive yet: we’re only allowed to use Google Hacking, also called Google Dorking, to see what an attacker could learn from public search results. One of the easiest wins for attackers is finding leaked credentials, so we’ll start there. In the browser, run this query exactly: <b>allinanchor: NorthTec Username Passwords</b> and look at the top result that clearly relates to NorthTec. Don’t worry about memorizing the whole title; instead, pay attention to what kind of internal data the page is exposing. When you’re done, describe in just a couple of words what type of information that result is leaking.",
+      "taskQuestion": "What kind of internal information is exposed?",
+      "taskCompleteText": "You correctly spotted that the search exposed an internal list of NorthTec user accounts and usernames. By focusing on the type of data, not just the page title, you’ve taken the first real step in evaluating how dangerous a simple search result can be."
+    }
+  ],
+  "taskID": "ismg6860_u01_q02_t01",
+  "parentQuestID": "ismg6860_u01_q02",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Input"
+}

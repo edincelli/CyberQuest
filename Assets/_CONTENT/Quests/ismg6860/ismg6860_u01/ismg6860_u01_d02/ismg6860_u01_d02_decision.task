@@ -1,0 +1,34 @@
+{
+  "decisions": [
+    {
+      "decisionText": "Report to George (disclose privately to DataSequence for remediation)",
+      "personaIndex": 0,
+      "personaValueChange": 10
+    },
+    {
+      "decisionText": "Monetize (sell or broker the findings for personal gain)",
+      "personaIndex": 1,
+      "personaValueChange": 10
+    },
+    {
+      "decisionText": "Public disclosure (publish findings publicly for maximum exposure)",
+      "personaIndex": 2,
+      "personaValueChange": 10
+    }
+  ],
+  "variants": [
+    {
+      "persona": "Universal Persona Content",
+      "taskDescription": "<b>Samira:</b> Hello Alex, I was going over the DNS footprint and the trace export from our last job and found a few items that look sensitive and actionable. I want your call on what we do next because each path has different trade-offs for risk, reward and reputation. Pick one of the short options below so I can execute quickly and update our records. Reply with the single option you want and I will proceed.",
+      "taskQuestion": "Which option do you choose?",
+      "taskCompleteText": "Samira acknowledged your choice and began the appropriate follow-up steps. The game recorded this decision and will present consequences and narrative follow-ups in upcoming quests."
+    }
+  ],
+  "taskID": "ismg6860_u01_d02_decision",
+  "parentQuestID": "ismg6860_u01_d02",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Decision"
+}

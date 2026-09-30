@@ -1,0 +1,27 @@
+{
+  "questID": "ismg6860_u01_q11",
+  "cityIndex": 6953,
+  "questIconID": "quest_icon_socialengineering_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q11_t01",
+    "ismg6860_u01_q11_t02",
+    "ismg6860_u01_q11_t03",
+    "ismg6860_u01_q11_t04",
+    "ismg6860_u01_q11_t05"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "NorthTec Recon",
+      "questDescription": "Jamal Rivers, SecOps Lead at NorthTec, has asked you to review a stream of executive-style emails staff are receiving and advise on next steps. Over five decision points you will evaluate reporting choices, inspect a forwarded message, interview employees about social media, assess attacker intent, and recommend organizational defenses. The quest teaches reconnaissance recognition, safe escalation, and layered response planning.",
+      "questCompleteText": "You collaborated with Jamal to identify a reconnaissance campaign using public profile data, escalated the right concerns, and helped shape NorthTec’s multi-layered response and training plan. The team contained early probing activity and increased employee awareness to reduce future exposure.",
+      "questCharacterID": "u01_jamal_rivers",
+      "appScenarioID": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questID": "ismg6860_u01_d02",
+  "cityIndex": 6012,
+  "questIconID": "sample_decision_icon_2",
+  "decisionQuest": true,
+  "taskIDs": [
+    "ismg6860_u01_d02_decision"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "",
+      "questName": "Handle Findings",
+      "questDescription": "Samira reached out after reviewing the exported DNS and trace outputs from your last job and found some sensitive, potentially valuable information. She asks you to pick how to handle those findings—each choice will steer the story and affect reputation and future opportunities. Decide quickly so Samira can act on your direction.",
+      "questCompleteText": "You recorded a clear decision about how to handle the findings and Samira logged your choice. This decision will influence reputation, narrative branches, and which follow-up tasks become available next.",
+      "questCharacterID": "u01_samira_linton",
+      "appScenarioID": ""
+    }
+  ]
+}

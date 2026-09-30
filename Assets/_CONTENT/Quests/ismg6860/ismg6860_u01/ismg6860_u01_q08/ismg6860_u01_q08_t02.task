@@ -1,0 +1,18 @@
+{
+  "variants": [
+    {
+      "correctAnswer": true,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Taylor:</b> Alex, given the Whois entry we just reviewed for ShadowTech, I want your opinion on how we should act if NexaCore faced the same kind of exposure. From my view we must balance rapid mitigation with our internal processes and legal duties. Tell me what immediate step you think NexaCore should take so we can weigh speed against procedure and avoid unnecessary risk.",
+      "taskQuestion": "Should NexaCore notify teams immediately?",
+      "taskCompleteText": "You advised immediate internal notification and coordination. The registrant shown in the lookup was Riley Calder. Document the finding, notify relevant stakeholders, and begin coordinated remediation while preserving evidence and following engagement rules."
+    }
+  ],
+  "taskID": "ismg6860_u01_q08_t02",
+  "parentQuestID": "ismg6860_u01_q08",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "TrueFalse"
+}

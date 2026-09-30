@@ -1,0 +1,16 @@
+{
+  "mailID": "ismg6860_u01_q03_t01_start_samira-imagesearch",
+  "parentTaskID": "ismg6860_u01_q03_t01",
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "author": "Samira Linton <samira.linton@cyberworld.edu>",
+      "subject": "Tips for the NexaCore Task",
+      "shortSummary": "Tips for investigating a file access concern at NexaCore.",
+      "date": "0001-01-01T00:00:00",
+      "body": "Hey Alex,\r\n\r\nI passed your details to Taylor at NexaCore. They've got a situation with a file access that happened at an odd time. \r\n\r\nThink about using those creative search skills of yours. Maybe try looking for specific filenames combined with file types in your search. Images can sometimes reveal a lot more than expected.\r\n\r\nAs you go, remember to jot down any URLs or key details you find. It's important to keep everything organized.\r\n\r\nI’m here if you want to discuss anything or need more context. You’ve got this!\r\n\r\n—Samira",
+      "attachements": []
+    }
+  ]
+}

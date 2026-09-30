@@ -1,0 +1,16 @@
+{
+  "mailID": "ismg6860_u01_q02_t03_start_samira-firewall",
+  "parentTaskID": "ismg6860_u01_q02_t03",
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "author": "Samira Linton <samira.linton@cyberworld.edu>",
+      "subject": "Firewall Configuration Steps for NorthTec",
+      "shortSummary": "Instructions for configuring NorthTec’s firewall to improve security without disrupting daily operations.",
+      "date": "0001-01-01T00:00:00",
+      "body": "Hey Alex,\r\n\r\nI've put together a checklist to guide you through the firewall setup for NorthTec. The goal is to block vulnerabilities while allowing necessary traffic. Here’s what to keep in mind:\r\n\r\n<b>Block or Disable:</b>\r\n- <b>Suspicious Network Activities:</b> Ensure any signs of DNS manipulation or unexpected ports are closed to prevent unauthorized access.\r\n- <b>Insecure Communications:</b> Ensure no emails with malicious content get through.\r\n- <b>Data Exposure:</b> Prevent sending or receiving data in plaintext form, especially passwords.\r\n\r\n<b>Allow:</b>\r\n- <b>System Updates:</b> Ensure traffic related to software updates is permitted, as it’s crucial for maintaining security.\r\n- <b>Verified Communications:</b> Allow emails that are digitally signed and verified.\r\n- <b>Secure Connections:</b> Permit HTTPS packets to flow freely, ensuring secure web transactions.\r\n\r\nRemember, we’re aiming for a strong, functional setup that guards against threats while supporting NorthTec’s day-to-day operations. Once your configuration is solid, I’ll compile it into our audit report.\r\n\r\nThanks for handling this—NorthTec is counting on us!\r\n\r\nSamira\r",
+      "attachements": []
+    }
+  ]
+}

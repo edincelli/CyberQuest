@@ -1,0 +1,26 @@
+{
+  "questID": "ismg6860_u01_q04",
+  "cityIndex": 6931,
+  "questIconID": "quest_icon_socialmedia_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q04_t01",
+    "ismg6860_u01_q04_t02",
+    "ismg6860_u01_q04_t03",
+    "ismg6860_u01_q04_t04"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "Impersonation Trail",
+      "questDescription": "George Wilkerson hires you to trace how an attacker used public social media to impersonate the CEO of dataSequence and trigger a stock drop. Using a simple in-world browser and a compact social platform, you will locate a news lead, perform a people search on a named contact, map the CEO’s public social network, and produce practical mitigation recommendations. The focus is on OSINT reasoning, triage, and privacy-first remediations rather than intrusive techniques.",
+      "questCompleteText": " You followed a niche news mention to a uniquely named friend, discovered public social accounts that revealed the CEO’s close network, and identified how those public details enabled a convincing impersonation. Your final report recommends prioritized steps — tighten profile privacy, verify official accounts, routinely audit public footprints, and help close contacts secure their profiles — reducing the risk of future impersonation and helping restore market confidence.",
+      "questCharacterID": "u01_george_wilkerson",
+      "appScenarioID": ""
+    }
+  ]
+}

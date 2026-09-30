@@ -1,0 +1,23 @@
+{
+  "questID": "ismg6860_u01_q01",
+  "cityIndex": 6892,
+  "questIconID": "quest_icon_recon_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q01_task1"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "Network Detective",
+      "questDescription": "Welcome to your first step in the world of ethical hacking! In this introductory quest, guided by your friend Samira, you’ll explore network logs to understand how companies protect themselves against cyber attacks. This exercise is designed to help you identify the reconnaissance stage in the cyber kill chain—a fundamental part of cybersecurity. By mastering these skills, you’ll learn to gather critical intelligence and prepare for real-world scenarios. Let’s get started and see if you have what it takes to become an ethical hacker!",
+      "questCompleteText": "Congratulations! You’ve successfully identified the reconnaissance stage by analyzing network logs. This foundational skill is crucial for understanding potential targets and building strong defenses. As you continue your journey, remember that each stage of the cyber kill chain offers unique insights into system security. Keep honing your skills, and soon you’ll be well-equipped to tackle more complex challenges in the world of ethical hacking.",
+      "questCharacterID": "u01_samira_linton",
+      "appScenarioID": ""
+    }
+  ]
+}

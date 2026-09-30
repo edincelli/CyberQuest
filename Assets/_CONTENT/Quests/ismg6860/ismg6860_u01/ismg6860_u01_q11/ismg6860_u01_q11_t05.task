@@ -1,0 +1,24 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Shut down the network until the attacker is found.",
+        "Train staff, rotate passwords, and strengthen layered defenses.",
+        "Change how email addresses are formatted.",
+        "Ban employees from using social media."
+      ],
+      "correctAnswer": 1,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Jamal Rivers:</b> Over the next few days SecOps detects probes searching for vulnerabilities, which supports our reconnaissance hypothesis and raises the risk of a targeted intrusion. We need a measured, practical plan that reduces exposure and improves detection without disrupting operations. Recommend a clear organizational response that helps NorthTec resist further probing and protects sensitive accounts. Choose the approach you believe will best defend the company.",
+      "taskQuestion": "What is the best plan?",
+      "taskCompleteText": "You recommended a multi-layered response: staff awareness training, credential hygiene, and technical hardening with improved monitoring. Jamal launched staff briefings, prioritized detection improvements, and assigned SecOps to continue containment and investigation."
+    }
+  ],
+  "taskID": "ismg6860_u01_q11_t05",
+  "parentQuestID": "ismg6860_u01_q11",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

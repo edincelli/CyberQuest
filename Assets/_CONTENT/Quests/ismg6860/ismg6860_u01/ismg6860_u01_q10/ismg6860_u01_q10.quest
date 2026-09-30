@@ -1,0 +1,24 @@
+{
+  "questID": "ismg6860_u01_q10",
+  "cityIndex": 6819,
+  "questIconID": "quest_icon_trainingacademy_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q10_t01",
+    "ismg6860_u01_q10_t02"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "Network Mapping Demo",
+      "questDescription": "Alex is running a live, sandboxed demonstration at the academy to show how network mapping reveals hosts and services. Samira asks Alex to run the lab mapping scenario and then explain why monitoring ports is important for security. The quest teaches reconnaissance concepts and why defenders monitor exposed services.",
+      "questCompleteText": "You finished the mapping demonstration and explained why port monitoring matters. The exercise showed how reconnaissance exposes an attack surface and why continuous monitoring reduces risk.",
+      "questCharacterID": "u01_samira_linton",
+      "appScenarioID": "zenmap_quest_10_1"
+    }
+  ]
+}

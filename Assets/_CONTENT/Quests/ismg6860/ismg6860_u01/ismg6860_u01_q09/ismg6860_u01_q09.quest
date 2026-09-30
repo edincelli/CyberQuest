@@ -1,0 +1,24 @@
+{
+  "questID": "ismg6860_u01_q09",
+  "cityIndex": 6947,
+  "questIconID": "quest_icon_databreach_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q09_t01",
+    "ismg6860_u01_q09_t02"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "Email Origin Trace",
+      "questDescription": "Samira notices a suspicious ransomware‑style email in your inbox and asks you to determine where it came from. You will extract the message source, import it into EmailTrackerPro, run a trace to identify the final‑hop IP on a map, and inspect the Network WhoIs to record the network registrant. Confirm the findings with a secondary check before submitting the final‑hop IP and registrant for the incident log.",
+      "questCompleteText": "You traced the suspicious message, identified the final‑hop IP and the network registrant, and confirmed the results with a secondary check. Samira now has the verified details needed to record the incident.",
+      "questCharacterID": "u01_samira_linton",
+      "appScenarioID": "emailtrackerpro_quest_9_1"
+    }
+  ]
+}

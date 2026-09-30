@@ -1,0 +1,24 @@
+{
+  "questID": "ismg6860_u01_q08",
+  "cityIndex": 6910,
+  "questIconID": "quest_icon_whois_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q08_t01",
+    "ismg6860_u01_q08_t02"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "Whois Recon",
+      "questDescription": "A short reconnaissance exercise: Alex must use a fictional Whois lookup to discover who is listed as the registrant for ShadowTech and then decide how to respond to a sensitive disclosure. The quest teaches what public Whois records can reveal and prompts an ethical decision about responsible disclosure.",
+      "questCompleteText": "You located the registrant listed for shadowtech.corp and evaluated the ethical options. The Whois record showed the registrant as Riley Calder. Whois queries use the legacy Whois protocol which listens on TCP port 43 and registrars may offer privacy/masking to limit public exposure. Your choice here affects trust, legal risk, and the next steps a responsible tester should take.",
+      "questCharacterID": "u01_taylor_chen",
+      "appScenarioID": ""
+    }
+  ]
+}

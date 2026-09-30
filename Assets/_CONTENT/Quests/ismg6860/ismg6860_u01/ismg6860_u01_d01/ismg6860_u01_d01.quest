@@ -1,0 +1,23 @@
+{
+  "questID": "ismg6860_u01_d01",
+  "cityIndex": 6930,
+  "questIconID": "sample_decision_icon_2",
+  "decisionQuest": true,
+  "taskIDs": [
+    "ismg6860_u01_d01_decision"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "",
+      "questName": "Internal Exports Decision",
+      "questDescription": "Taylor confirms the additional image appears to show internal payment references and project codes that could indicate illicit operations. You must decide how to handle this sensitive evidence. Your choice will determine who is notified and shape the company and legal consequences that follow.",
+      "questCompleteText": "You recorded your decision and the hosting page. The image and your choice have been passed to the parties you selected and will influence NexaCore's next steps and any external response.",
+      "questCharacterID": "u01_samira_linton",
+      "appScenarioID": ""
+    }
+  ]
+}

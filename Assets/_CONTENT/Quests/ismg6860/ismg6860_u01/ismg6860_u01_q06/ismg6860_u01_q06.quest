@@ -1,0 +1,24 @@
+{
+  "questID": "ismg6860_u01_q06",
+  "cityIndex": 5099,
+  "questIconID": "quest_icon_webspidering_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q06_t01",
+    "ismg6860_u01_q06_t02"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "Web Spidering",
+      "questDescription": "A journalist hires Alex to demonstrate how much public information a web spider can discover. The player runs a simulated public crawl for Charisse Morgangood, inspects sample public file listings and a sanitized crawl log, and then helps the reporter choose the most effective mitigation to reduce unintentional indexing.",
+      "questCompleteText": "You ran a simulated public crawl and reviewed sample public listings for Charisse Morgangood. You learned that web spiders enumerate only publicly reachable resources, that robots.txt can instruct well‑behaved crawlers but is advisory, and that preventing exposure requires complementary measures such as access controls and removal of sensitive public files.",
+      "questCharacterID": "u01_charisse_morgangood",
+      "appScenarioID": ""
+    }
+  ]
+}

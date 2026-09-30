@@ -1,0 +1,24 @@
+{
+  "questID": "ismg6860_u01_q03",
+  "cityIndex": 5197,
+  "questIconID": "quest_icon_searchengines_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q03_t01",
+    "ismg6860_u01_q03_t02"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "Q4NexList Leak",
+      "questDescription": "NexaCore has hired you to investigate a suspicious log entry referencing a file named \"Q4NexList.\" Use the in-game browser and search engine mini-game to determine whether that image is accessible outside the company, collect evidence, and identify the scope of the exposure. Your findings will lead to a choice about how to handle the exposed client data.",
+      "questCompleteText": "You confirmed whether the Q4NexList screenshot was publicly accessible and collected the supporting evidence. Your report and chosen course of action have been recorded; NexaCore is now responding according to your decision. The consequences of this choice will influence future contacts and the company's public fallout.",
+      "questCharacterID": "u01_taylor_chen",
+      "appScenarioID": ""
+    }
+  ]
+}

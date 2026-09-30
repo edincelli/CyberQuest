@@ -1,0 +1,18 @@
+{
+  "variants": [
+    {
+      "correctAnswer": true,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> I see you pulled the DIG output and flagged an unfamiliar name server called duck451.net among BikeForge's regular servers. Unauthorized DNS entries like that can sometimes point to attackers redirecting traffic or causing outages, though not every unexpected record is malicious. Based on what you found, tell me whether such an unexpected server could indicate traffic redirection or outage risk.",
+      "taskQuestion": "Could this indicate traffic redirection?",
+      "taskCompleteText": "You confirmed that an unexpected name server can indicate potential redirection or service disruption. This reinforces the need to verify records with the registrar and coordinate with BikeForge before making any changes."
+    }
+  ],
+  "taskID": "ismg6860_u01_q05_t02",
+  "parentQuestID": "ismg6860_u01_q05",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "TrueFalse"
+}

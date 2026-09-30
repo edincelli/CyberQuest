@@ -1,0 +1,25 @@
+{
+  "questID": "ismg6860_u01_q07",
+  "cityIndex": 6919,
+  "questIconID": "quest_icon_dns_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q07_t01",
+    "ismg6860_u01_q07_t02",
+    "ismg6860_u01_q07_t03"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "DNS Footprint",
+      "questDescription": "You are contracted by DataSequence to perform a passive DNS footprint on behalf of CEO George Wilkerson. Using publicly available DNS-derived information you will collect domains, subdomains, name servers, IPs and GeoIP hints and then consolidate those findings into a concise footprint. The objective is to turn raw DNS output into a simple network map that reveals likely attack surface without conducting any active intrusion.",
+      "questCompleteText": "You finished the passive DNS footprint for DataSequence and produced a concise report plus a basic network diagram. The exercise demonstrated how DNS records, subdomains, name servers, IP allocations and GeoIP clues combine to expose an organization’s internet presence and potential attack surface. This footprint is now ready for the next phase where you will review options for responsibly handling and reporting the sensitive findings to George Wilkerson.",
+      "questCharacterID": "u01_george_wilkerson",
+      "appScenarioID": ""
+    }
+  ]
+}

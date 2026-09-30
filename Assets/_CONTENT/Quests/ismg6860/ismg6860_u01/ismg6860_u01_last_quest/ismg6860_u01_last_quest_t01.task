@@ -1,0 +1,21 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Continue"
+      ],
+      "correctAnswer": 0,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Ed:</b> Hi, thanks for making it to the end of the demo. We're closing this build and I need your help to make the next one better. Please take a few minutes to reflect on pacing, clarity, and any bugs you noticed. When you finish this step, the feedback survey will open automatically so you can submit your thoughts.",
+      "taskQuestion": "Complete this step to open the survey.",
+      "taskCompleteText": "<b>Ed:</b> Thanks. Click the <b>Finish Scenario</b> button to continue; the feedback survey will open automatically after you do. Your honest responses will directly shape the next build, and I really appreciate your time."
+    }
+  ],
+  "taskID": "ismg6860_u01_last_quest_t01",
+  "parentQuestID": "ismg6860_u01_last_quest",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

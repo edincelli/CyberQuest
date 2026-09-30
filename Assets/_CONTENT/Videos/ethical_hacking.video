@@ -1,0 +1,10 @@
+{
+  "videoID": "ethical_hacking",
+  "videoURL": "",
+  "videoName": "Ehical Hacking",
+  "videoDescription": "Ethical hacking is the authorized and legal practice of testing computer systems, networks, or applications to identify security vulnerabilities before malicious hackers can exploit them. The goal is not to cause harm, but to strengthen security by thinking and acting like an attacker, within clearly defined legal and ethical boundaries.",
+  "links":
+  [
+    "ethical hacking"
+  ]
+}

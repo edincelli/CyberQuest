@@ -1,0 +1,23 @@
+{
+  "questID": "ismg6860_u01_last_quest",
+  "cityIndex": 6986,
+  "questIconID": "sample_quest_icon_3",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_last_quest_t01"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "Demo Feedback",
+      "questDescription": "A short closing quest that asks players to reflect on the demo and share suggestions. This single-stage checkpoint gathers structured feedback to guide the next iteration of the game.",
+      "questCompleteText": "Thank you — your feedback has been recorded. We will use it to improve the demo and future updates.",
+      "questCharacterID": "ersin",
+      "appScenarioID": ""
+    }
+  ]
+}

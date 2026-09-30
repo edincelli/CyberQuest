@@ -1,0 +1,22 @@
+{
+  "correctAnswers": [],
+  "variants": [
+    {
+      "correctAnswers": [
+        "Riley",
+        "Calder"
+      ],
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Taylor:</b> Hi Alex, I have a new gig for you. NexaCore has asked for a light reconnaissance sweep of ShadowTech and I need a clear inventory of what is publicly visible. Please go to the company lookup page and run a Whois query for <b>shadowtech.corp</b>. Copy the Registrant or Owner field exactly as shown, record the name verbatim, and tell me if anything looks unusual so we can decide the appropriate next steps.",
+      "taskQuestion": "Who is the registrant?",
+      "taskCompleteText": "You located the registrant field and recorded the name exactly as shown. That public registrant entry is the data a Whois-style lookup would return and can link a person or project to the domain if no privacy service is in place."
+    }
+  ],
+  "taskID": "ismg6860_u01_q08_t01",
+  "parentQuestID": "ismg6860_u01_q08",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Input"
+}

@@ -1,0 +1,26 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Weaponization",
+        "Reconnaissance",
+        "Command and Control",
+        "Privilege Escalation"
+      ],
+      "correctAnswer": 1,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> Alex, I know you’ve been wanting to dive deeper into ethical hacking, so I sent some info about the cyber kill chain to your inbox. Right now, these network logs are our puzzle pieces. They’ll help us learn how a company operates. Think of this as your first step to see if you’ve got the instincts of an ethical hacker. Can you pin down which stage we’re focusing on? Let’s uncover the hidden secrets together!",
+      "taskQuestion": "What part of the cyber kill chain is this?",
+      "taskCompleteText": "Awesome! You’ve chosen <b>reconnaissance</b>. Analyzing network logs helps us understand potential targets. It’s the first step in creating strong defenses. Well done!"
+    }
+  ],
+  "taskID": "ismg6860_u01_q01_task1",
+  "parentQuestID": "ismg6860_u01_q01",
+  "videoID": null,
+  "mailsOnStart": [
+    "ismg6860_u01_q01_task1_start_samira-hello"
+  ],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

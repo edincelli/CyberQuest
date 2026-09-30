@@ -1,0 +1,22 @@
+{
+  "correctAnswers": [],
+  "variants": [
+    {
+      "correctAnswers": [
+        "datasequence.corp",
+        "datasequence"
+      ],
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>George:</b> Hello Alex, I need your help again. We're preparing an external inventory of DataSequence's public footprint so leadership can understand exposures and prioritize fixes. Use the passive DNS footprint tool to collect discovered domains, subdomains, name servers, mail hosts, A records with IPs and any GeoIP/location clues you can find. Start by entering our public domain <b>datasequence.corp</b> into the tool and capture the observable hosts and IPs, then flag which hosts look externally exposed for review.",
+      "taskQuestion": "What DNS-derived hosts and records did you find?",
+      "taskCompleteText": "You produced a concise passive DNS summary for datasequence.corp listing discovered subdomains, name servers, mail hosts, A/CNAME records with IPs and GeoIP clues. This structured output will be used to build a network map and assess exposure in the next stage."
+    }
+  ],
+  "taskID": "ismg6860_u01_q07_t01",
+  "parentQuestID": "ismg6860_u01_q07",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Input"
+}

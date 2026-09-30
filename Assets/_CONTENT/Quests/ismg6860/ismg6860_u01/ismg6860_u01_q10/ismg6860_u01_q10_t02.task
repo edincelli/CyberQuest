@@ -1,0 +1,24 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "They allow unauthorized access",
+        "The network could run at the wrong speed",
+        "Ports show what is offline",
+        "They prevent software updates from being installed"
+      ],
+      "correctAnswer": 0,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> Nice work with the scan, Alex — that output makes the risks tangible. To wrap up, tell me why we routinely monitor ports and services on our network. Pick the best answer from the options and keep in mind what your scan showed about exposed services. Your explanation will reinforce the defensive perspective on reconnaissance.",
+      "taskQuestion": "Why must ports be monitored?",
+      "taskCompleteText": "Open or poorly secured ports can expose services that attackers can reach, creating opportunities for unauthorized access. Monitoring ports helps defenders detect unexpected or unnecessary services, reduce the network attack surface, and prioritize remediation based on reconnaissance findings like those from your scan."
+    }
+  ],
+  "taskID": "ismg6860_u01_q10_t02",
+  "parentQuestID": "ismg6860_u01_q10",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

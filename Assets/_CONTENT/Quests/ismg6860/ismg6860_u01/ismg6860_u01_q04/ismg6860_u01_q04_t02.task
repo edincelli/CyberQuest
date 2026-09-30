@@ -1,0 +1,18 @@
+{
+  "variants": [
+    {
+      "correctAnswer": "2025-06-09-impersonation-notice",
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>George Wilkerson:</b> I found a brief business column that mentions one of my close friends by name and it stood out from the usual corporate coverage. The writer is a lesser-known journalist and the piece drops a full name that could be a useful lead. ",
+      "taskQuestion": "Can you search recent news and locate that article so we can follow where the attacker might have started?",
+      "taskCompleteText": "You located a GoalPost business brief by Charisse Morgangood that names Eli Masters as a close friend of George Wilkerson. That unique name is a high-value OSINT lead you can use next to search public social profiles and map the CEO’s close network."
+    }
+  ],
+  "taskID": "ismg6860_u01_q04_t02",
+  "parentQuestID": "ismg6860_u01_q04",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Website"
+}

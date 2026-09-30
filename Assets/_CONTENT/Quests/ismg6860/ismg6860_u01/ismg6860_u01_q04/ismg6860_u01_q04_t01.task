@@ -1,0 +1,24 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "You could interview employes close to him to see if they know anything about who may have impersonated them. ",
+        "Start at looking at recent news articles on the CEO.",
+        "Call his friends and family for information.",
+        "Investigate rival companies to see if anyone suspicious would have motive to digitally impersonate the CEO."
+      ],
+      "correctAnswer": 1,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>George Wilkerson:</b> Thank you for coming in on short notice. Our stock took an unexpected hit after someone impersonated me on social media and the market reacted almost immediately. I need a pragmatic, noninvasive way to get useful leads fast so we can understand how this impersonation happened and who might be involved.",
+      "taskQuestion": "Where would you recommend we begin the investigation?",
+      "taskCompleteText": "You chose to begin with recent news coverage. Scanning media for unique mentions is a fast OSINT triage that can reveal named contacts and public details useful for follow-up searches. This approach prioritizes evidence-gathering while minimizing disruption to people close to the CEO."
+    }
+  ],
+  "taskID": "ismg6860_u01_q04_t01",
+  "parentQuestID": "ismg6860_u01_q04",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

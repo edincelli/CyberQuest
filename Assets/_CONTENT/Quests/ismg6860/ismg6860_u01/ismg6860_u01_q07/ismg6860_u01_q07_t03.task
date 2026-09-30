@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "minigameType": "NetworkTrace",
+      "minigameHeaderText": "DataSequence Infrastructure",
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>George:</b> Hello Alex, one last step — build a simple network trace so we can visualise likely paths between our public hosts. Use the network trace simulator to move through the topology and reveal intermediate hops, device roles and geo-clusters that relate back to our DNS findings. Click through nodes until you have visited ten distinct nodes; each discovered node will show a short detail card you can export. Finish the trace so I can review the inferred path and the exported node list for our report.",
+      "taskQuestion": "Trace ten network nodes.",
+      "taskCompleteText": "You completed the network trace, visiting ten nodes and exporting a concise node list showing intermediate hops, roles and GeoIP clues. This mapped output will be combined with the DNS summary to form the network diagram used for remediation planning."
+    }
+  ],
+  "taskID": "ismg6860_u01_q07_t03",
+  "parentQuestID": "ismg6860_u01_q07",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Minigame"
+}

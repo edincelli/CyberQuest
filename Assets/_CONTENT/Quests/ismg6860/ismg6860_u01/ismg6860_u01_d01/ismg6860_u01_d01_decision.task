@@ -1,0 +1,34 @@
+{
+  "decisions": [
+    {
+      "decisionText": "Hand the image over to Taylor and NexaCore security.",
+      "personaIndex": 0,
+      "personaValueChange": 10
+    },
+    {
+      "decisionText": "Keep the image and attempt to sell it on the dark web.",
+      "personaIndex": 1,
+      "personaValueChange": 10
+    },
+    {
+      "decisionText": "Report the image directly to law enforcement.",
+      "personaIndex": 2,
+      "personaValueChange": 10
+    }
+  ],
+  "variants": [
+    {
+      "persona": "Universal Persona Content",
+      "taskDescription": "<b>Samira:</b> Wow, that second screenshot looks serious — the entries and project codes don’t read like a normal client export. I shouldn’t be nudging you, but this could point to something illegal and it changes what we do next. You’ve got a few options on how to handle it and I trust your judgement; just keep the file secure and don’t share it beyond us. Tell me which route you want me to pursue with Taylor and I’ll back you up.",
+      "taskQuestion": "What do you do with the image?",
+      "taskCompleteText": "You chose a course of action and recorded the hosting page as evidence. Taylor has acknowledged your decision and will proceed according to your instruction. The consequences of this choice will unfold in subsequent interactions and events."
+    }
+  ],
+  "taskID": "ismg6860_u01_d01_decision",
+  "parentQuestID": "ismg6860_u01_d01",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Decision"
+}

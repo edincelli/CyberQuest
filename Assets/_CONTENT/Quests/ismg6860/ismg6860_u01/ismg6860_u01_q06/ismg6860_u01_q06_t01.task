@@ -1,0 +1,23 @@
+{
+  "correctAnswers": [],
+  "variants": [
+    {
+      "correctAnswers": [
+        "75",
+        "seventy-five",
+        "seventy five"
+      ],
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Charisse:</b> Hi, I need a concrete example for my article showing how much public information a web spider can discover. Please run a public crawl for my name and report back the results count so I can show readers the scale of exposure. Visit the demo site at webscrape-demo.netx/search, enter my name in the search box, and run the simulated crawl; skim the sample filenames and the sanitized Raw Log while it runs. Bring the result back to me and we will discuss what this means for everyday people and organizations.",
+      "taskQuestion": "Enter the results count shown on webscrape.netx for Charisse Morgangood.",
+      "taskCompleteText": "You ran the simulated public crawl on webscrape-demo.netx for Charisse Morgangood and reported 75 results. You reviewed five sample filenames and the sanitized Raw Log, which demonstrates that web spiders enumerate publicly reachable resources. This concrete example will help Charisse explain that robots.txt and other controls must be used alongside access controls and content removal to reduce unintended exposure."
+    }
+  ],
+  "taskID": "ismg6860_u01_q06_t01",
+  "parentQuestID": "ismg6860_u01_q06",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Input"
+}

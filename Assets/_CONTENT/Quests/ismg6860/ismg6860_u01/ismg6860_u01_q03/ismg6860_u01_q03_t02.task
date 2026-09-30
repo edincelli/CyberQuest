@@ -1,0 +1,18 @@
+{
+  "variants": [
+    {
+      "correctAnswer": "exports/ops_archive_view.jpg",
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Taylor:</b> Good work locating that first file. What you pulled up looks like more than an accidental export — there are entries and annotations that suggest internal payment routing and project codes that do not belong in a public client list. I need you to keep digging through NexaCore’s site for any other image files in export or archive folders that resemble internal exports and save anything that looks more detailed or unusual. If you find another image that appears to document financial or operational irregularities, hold it secure and report the hosting page to me right away so we can decide how to proceed. Do not share the material beyond our chain of communication.",
+      "taskQuestion": "Find webpage hosting the additional image.",
+      "taskCompleteText": "You located an additional internal image and saved the hosting page to your evidence bag. The screenshot appears to contain clearer records of internal payments and project codes that could indicate illicit activity; Taylor has acknowledged receipt and is awaiting your recommendation on next steps. Your decision about how to handle this material will determine whether NexaCore pursues an internal response, involves authorities, or treats the matter differently."
+    }
+  ],
+  "taskID": "ismg6860_u01_q03_t02",
+  "parentQuestID": "ismg6860_u01_q03",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Website"
+}

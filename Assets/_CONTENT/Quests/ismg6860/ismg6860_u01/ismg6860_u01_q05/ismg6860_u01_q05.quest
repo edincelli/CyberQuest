@@ -1,0 +1,25 @@
+{
+  "questID": "ismg6860_u01_q05",
+  "cityIndex": 6932,
+  "questIconID": "quest_icon_gamedev_1",
+  "decisionQuest": false,
+  "taskIDs": [
+    "ismg6860_u01_q05_t01",
+    "ismg6860_u01_q05_t02",
+    "ismg6860_u01_q05_t03"
+  ],
+  "fanOffset": 0.0,
+  "overrideFanSpan": false,
+  "fanSpan": 0.0,
+  "universalPersonaContent": true,
+  "variants": [
+    {
+      "persona": "Whitehat Hacker",
+      "questName": "DNS Investigation",
+      "questDescription": "Samira assigns a freelance job to investigate mysterious outages experienced by an indie game studio. The player will run a sandboxed terminal tool to inspect DNS records, evaluate whether an unexpected entry indicates tampering, and recommend appropriate remediation steps. This quest teaches how to read basic DIG output, recognise anomalous DNS records, and pick safe mitigation actions.",
+      "questCompleteText": "You identified an unauthorized DNS entry, confirmed it could cause redirection or outages, and recommended concrete mitigations for BikeForge. BikeForge applied the steps and the site’s behavior stabilized. You earned practical experience reading DIG output, spotting DNS anomalies, and suggesting safe responses.",
+      "questCharacterID": "u01_samira_linton",
+      "appScenarioID": ""
+    }
+  ]
+}

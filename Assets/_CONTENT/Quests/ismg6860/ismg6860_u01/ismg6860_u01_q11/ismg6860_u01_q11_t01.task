@@ -1,0 +1,26 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Ask more employees.",
+        "Report to your superior and warn staff.",
+        "Start your own investigation now.",
+        "Ignore it as spam."
+      ],
+      "correctAnswer": 1,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Jamal Rivers:</b> I’m Jamal Rivers, SecOps Lead at NorthTec. I heard you were in the breakroom and overheard Susie and Juan talking about executive‑style emails that several people received. Staff have been forwarding copies to me and I need a solid first step so we don’t make the situation worse. ",
+      "taskQuestion": "How should you proceed?",
+      "taskCompleteText": "You escalated the issue to your superior and prompted a company advisory. Jamal coordinated a warning to staff while SecOps began tracking reports and preparing a controlled investigation."
+    }
+  ],
+  "taskID": "ismg6860_u01_q11_t01",
+  "parentQuestID": "ismg6860_u01_q11",
+  "videoID": null,
+  "mailsOnStart": [
+    "ismg6860_u01_q11_t01_start_forwarded_suspicious"
+  ],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

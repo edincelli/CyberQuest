@@ -1,0 +1,21 @@
+{
+  "variants": [
+    {
+      "actionType": "mail_source_copied",
+      "actionTag": "ismg6860_u01_q09_t01_start_scam",
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> I just noticed a message in your inbox that looks designed to push someone into immediate action. The raw message source often hides routing and sender metadata we need to trace, which the visible text does not show. Open the message source and use the Import Source control to load the raw header into EmailTrackerPro so the tool can parse it. Once the header is imported I will guide you through the tracing steps.",
+      "taskQuestion": "Import the message source.",
+      "taskCompleteText": "You opened the message source and used Import Source to load the raw header into EmailTrackerPro. The header is now ready for parsing and tracing."
+    }
+  ],
+  "taskID": "ismg6860_u01_q09_t01",
+  "parentQuestID": "ismg6860_u01_q09",
+  "videoID": null,
+  "mailsOnStart": [
+    "ismg6860_u01_q09_t01_start_scam"
+  ],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "Action"
+}

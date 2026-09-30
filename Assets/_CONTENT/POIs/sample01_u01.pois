@@ -1,0 +1,62 @@
+{
+  "unitID": "ismg6860_u01",
+  "places": [
+    {
+      "cityIndex": 5962,
+      "action": "None",
+      "labelText": "Central Data Center",
+      "extraText": "<b>Central Data Center:</b> 198.51.100.7",
+      "poiIconID": "sample_poi_2",
+      "devNote": "Austin Base"
+    },
+    {
+      "cityIndex": 6778,
+      "action": "None",
+      "labelText": "West Coast Data Center",
+      "extraText": "<b>West Coast Data Center:</b> 203.0.113.10",
+      "poiIconID": "sample_poi_1",
+      "devNote": "Seattle"
+    },
+    {
+      "cityIndex": 6724,
+      "action": "None",
+      "labelText": "East Coast Data Center",
+      "extraText": "<b>East Coast Data Center:</b> 192.0.2.25",
+      "poiIconID": "sample_poi_1",
+      "devNote": "Halifax"
+    },
+    {
+      "cityIndex": 6948,
+      "action": "None",
+      "labelText": "Paris",
+      "extraText": "",
+      "poiIconID": "",
+      "devNote": "paris"
+    },
+    {
+      "cityIndex": 6936,
+      "action": "None",
+      "labelText": "Moscow",
+      "extraText": "",
+      "poiIconID": "",
+      "devNote": "moscow"
+    },
+    {
+      "cityIndex": 6555,
+      "action": "None",
+      "labelText": "Fez",
+      "extraText": "",
+      "poiIconID": "",
+      "devNote": "Fez"
+    },
+    {
+      "cityIndex": 6856,
+      "action": "None",
+      "labelText": "Santo Domingo",
+      "extraText": "",
+      "poiIconID": "",
+      "devNote": "Santo domingo"
+    }
+  ],
+  "lines": []
+}

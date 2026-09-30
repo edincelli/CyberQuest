@@ -1,0 +1,24 @@
+{
+  "variants": [
+    {
+      "answers": [
+        "Routinely clean public footprints, tighten privacy for contacts, and verify official accounts.",
+        "Make the CEO and all employees change their passwords immediately.",
+        "Remove all tags and untag the CEO from every social photo.",
+        "Contact journalists and request removal of public news articles."
+      ],
+      "correctAnswer": 0,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>George Wilkerson:</b> This investigation has shown how everyday posts and visible connections can be woven into a believable impersonation that hurt our stock and reputational standing. I need a concise, practical plan that reduces the chance this happens again without causing unnecessary alarm among staff and family. Prioritize actions that restore trust and make impersonation harder while respecting privacy. ",
+      "taskQuestion": "What would you advise we do first?",
+      "taskCompleteText": "You recommended a prioritized, privacy-first remediation: establish regular digital-footprint audits, tighten profile privacy and help close contacts secure their accounts, and verify official corporate social accounts. These steps reduce the raw material attackers use for impersonation, help rebuild public confidence, and create clearer signals to distinguish genuine communications from fakes."
+    }
+  ],
+  "taskID": "ismg6860_u01_q04_t04",
+  "parentQuestID": "ismg6860_u01_q04",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "SingleChoice"
+}

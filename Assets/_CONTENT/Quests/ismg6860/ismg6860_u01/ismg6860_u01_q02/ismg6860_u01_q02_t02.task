@@ -1,0 +1,18 @@
+{
+  "variants": [
+    {
+      "correctAnswer": true,
+      "persona": "Whitehat Hacker",
+      "taskDescription": "<b>Samira:</b> That first search result already looks bad, but we need to know how far the damage goes. Reuse the same idea and try a few more focused queries—mix terms like <b>“NorthTec”</b>, <b>“test users”</b>, and <b>“auth script”</b>, or add keywords such as <b>“repository”</b> and <b>“code”</b> to see if any public projects mention these accounts. As you follow the results in the browser, you’ll see that the employee emails and passwords from the database also appear in a public code repository, which means anyone on the internet could quietly copy them. With that in mind, think about what a responsible security team should do about every employee’s password right now.",
+      "taskQuestion": "At this point you should have all the employees change their password right away? ",
+      "taskCompleteText": "You treated the exposed credentials as compromised and decided that NorthTec must force password changes and commit to a proper password hygiene plan. This is the correct response: once employee emails and passwords are out in the open, ignoring them—or only fixing a small subset—leaves the company wide open to account takeover and ransomware attacks."
+    }
+  ],
+  "taskID": "ismg6860_u01_q02_t02",
+  "parentQuestID": "ismg6860_u01_q02",
+  "videoID": null,
+  "mailsOnStart": [],
+  "mailsOnEnd": [],
+  "universalPersonaContent": true,
+  "TaskType": "TrueFalse"
+}
